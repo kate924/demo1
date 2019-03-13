@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="zuoye.NewTest"/>
+    </classes>
+    
+      <groups>
+            <run>
+                <include name="selenium-test" />
+            </run>
+        </groups>
+    <classes>
+      <class name="zuoye.NewTest"/>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
